@@ -6,6 +6,7 @@ public with sharing class QueryFetching {
         if (!QF.isEmpty()) {
             for (Account acc : QF) {
                 System.debug('Contacts'+acc.Contacts);
+                //fetching contacts.
                 
             }
             
